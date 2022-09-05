@@ -1,0 +1,35 @@
+
+<!-- saved from url=(0048)https://tracking.apprubeus.com.br/page/corsFrame -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script>
+        var cookie = "";
+
+        function receptor(msg) {
+            if (msg.data.type == "CreateCookie") {
+                if (document.cookie.indexOf("b_id") > -1 && !msg.data.hardReset) {
+                    cookie = document.cookie;
+                } else {
+                    cookie = document.cookie = msg.data.data;
+                }
+                data = {
+                    type: "CreateCookie",
+                    data: cookie
+                }
+                window.parent.postMessage(data, "*");
+            }
+        }
+
+        msg = {
+            type: "IframeDoned",
+            data: true
+        }
+
+        window.parent.postMessage(msg, "*");
+        window.addEventListener("message", receptor, false)
+    </script>
+    </head>
+
+<body>
+
+
+</body></html>

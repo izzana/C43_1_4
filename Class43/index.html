@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+
+    <!-- Firebase SDK CODE ADD BELOW -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+    <script>
+      const firebaseConfig = {  
+        apiKey: "AIzaSyDtpD_8hD-16HQWLgtrAl5Q0Vf4cWIefcI",
+        authDomain: "teste-88636.firebaseapp.com",
+        databaseURL: "https://teste-88636-default-rtdb.firebaseio.com",
+        projectId: "teste-88636",
+        storageBucket: "teste-88636.appspot.com",
+        messagingSenderId: "697675778770",
+        appId: "1:697675778770:web:74aa00baab0cc20385fb0b",
+        measurementId: "G-N06JTWT6PQ"
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    
+   
+  </head>
+  <body>
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./sketch.js"></script>
+  </body>
+</html>

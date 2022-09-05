@@ -1,0 +1,1196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0022)https://unifan.net.br/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>img.lazy{min-height:1px}</style><link rel="preload" href="./UNIFAN_files/lazyload.min.js.download" as="script">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNIFAN</title>
+<meta name="description" content="">
+
+<link rel="icon" href="https://unifan.net.br/wp-content/themes/unifan/img/ico-32x32.png" sizes="32x32">
+<link rel="icon" href="https://unifan.net.br/wp-content/themes/unifan/img/ico-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://unifan.net.br/wp-content/themes/unifan/img/ico-180x180.png">
+
+<link rel="stylesheet" type="text/css" href="./UNIFAN_files/style.css">
+
+<script type="text/javascript" async="" src="./UNIFAN_files/analytics.js.download"></script><script async="" src="./UNIFAN_files/fbevents.js.download"></script><script async="" src="./UNIFAN_files/gtm.js.download"></script><script type="text/javascript" src="./UNIFAN_files/RBTracking.min.js.download"></script><link href="./UNIFAN_files/lgpd.min.css" rel="stylesheet"><script type="text/javascript" src="./UNIFAN_files/CustomChannel.min.js.download" id="CustomChannelScript"></script>
+
+<meta property="og:title" content="UNIFAN">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://unifan.net.br">
+<meta property="og:image" content="https://unifan.net.br/wp-content/themes/unifan/img/compartilhamento.jpg">
+<meta property="og:image:type" content="image/jpg">
+
+<meta property="og:site_name" content="UNIFAN">
+<meta property="og:description" content="">
+<meta name="author" content="Perfil Virtual">
+<meta name="owner" content="contato@perfilvirtual.com.br">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T9SMFHZ');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./UNIFAN_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-215738206-3', {
+	'linker': {
+		'domains': ['unifan.net.br', 'apprbs.com.br','gruponobre.edu.br'],
+		'accept_incoming': true,
+		'decorate_forms': true
+	  }
+	});
+</script>
+
+
+<!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2088522574661212');
+  fbq('track', 'PageView');
+</script>
+<noscript><img class="lazy" height="1" width="1" style="display:none"
+  src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://www.facebook.com/tr?id=2088522574661212&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+<script>
+function fechar_modal(){
+	document.getElementById('modal').setAttribute('style', 'display:none;');
+}
+</script>
+
+<style>
+#modal{
+	width:100%;
+	height:100vh;
+	position:fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:rgb(0,0,0,0.5);
+	top: 0;
+	z-index: 9999999999;
+}
+#modal #content_modal{
+	width:80%;
+	max-width:550px;
+	position:relative;
+	padding:30px;
+	border-radius:5px;
+	border-top:5px solid #2ec861;
+	background-image: url(https://educa-insights.com.br/wp-content/themes/educa/img/bg_whats.jpg);
+	background-color:#EFEBE2;
+	box-shadow:0px 2px 10px rgb(0, 0, 0, 0.2);
+}
+#modal #content_modal h2{
+	color: #2ec861;
+    text-align: center;
+    font-weight: bolder;
+}
+#modal #content_modal p{
+	font-size: 0.8rem;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0 15px 0;
+}
+#modal #content_modal iframe{
+	width:100%;
+	height: 320px;
+	border:none;
+}
+#modal #fechar_modal{
+		position: absolute;
+		top: -10px;
+		right: -10px;
+		background: #2ec861;
+		font-size: 15px;
+		color: #fff;
+		width: 25px;
+		height: 25px;
+		border-radius: 100px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: sans-serif;
+		line-height:1;
+		cursor:pointer;
+		box-shadow:0px 2px 10px rgb(0, 0, 0, 0.2);
+	}
+</style>
+
+<script type="text/javascript" src="./UNIFAN_files/ua-parser.min.js.download"></script></head>
+
+<body cz-shortcut-listen="true" style="cursor: auto;">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9SMFHZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+<div class="header">
+	<div class="content">
+		<div>			
+			<a href="https://unifan.net.br/" id="logo">
+				<img class="lazy loaded" src="./UNIFAN_files/logo-unifan-color.png" data-src="https://unifan.net.br/wp-content/themes/unifan/img/logo-unifan-color.png" data-was-processed="true">
+			</a>
+		</div>
+		
+		<div class="menu-principal-container"><ul id="menu-principal" class="menu"><li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="https://unifan.net.br/institucional/">A UNIFAN</a></li>
+<li id="menu-item-199" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-199"><a href="https://unifan.net.br/#">Cursos</a>
+<ul class="sub-menu">
+	<li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="https://unifan.net.br/graduacao-presencial/">Graduação Presencial</a></li>
+	<li id="menu-item-627" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-627"><a href="https://unifan.net.br/graduacao-semipresencial/">Graduação Semipresencial</a></li>
+	<li id="menu-item-626" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-626"><a href="https://unifan.net.br/graduacao-ead/">Graduação EAD</a></li>
+	<li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198"><a href="https://unifan.net.br/pos-graduacao/">Pós-Graduação</a></li>
+</ul>
+</li>
+<li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a href="https://unifan.net.br/para-o-candidato/pesquisa-e-extensao/">Pesquisa e Extensão</a></li>
+<li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="https://unifan.net.br/servicos/">Serviços</a></li>
+<li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="https://unifan.net.br/para-o-candidato/">Para o Candidato</a></li>
+<li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="https://unifan.net.br/acontece/">Acontece</a></li>
+</ul></div>		
+		<div id="header_left">
+		
+			<form action="https://unifan.net.br/" method="get" role="search" id="search">
+				<span id="busca" onclick="busca(1);">x</span>
+				<input type="text" name="s" id="s" autocomplete="off" placeholder="DIGITE O QUE PROCURA">
+				<input type="submit" value="" id="bot_search">
+			</form>
+			
+			<a id="busca_topo" onclick="busca(0);">
+				<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-lupa2.png">
+			</a>
+			
+			<a href="https://unifan.net.br/#portais" id="bot_portal" class="fancybox">
+				<img class="lazy loaded" src="./UNIFAN_files/ico-user.png" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-user.png" data-was-processed="true">
+				ACESSE O PORTAL
+			</a>
+			
+			<a href="https://unifan.net.br/#insc" class="botao fancybox" onclick="gtag(&#39;event&#39;, &#39;click&#39;, {&#39;event_category&#39; : &#39;Bot-Inscrição&#39;,&#39;event_label&#39; : &#39;Header&#39;});">INSCREVA-SE</a>
+			
+			<div class="menu1" id="menu1"></div>
+			
+		</div>
+	</div>
+	
+</div>
+
+<div id="menu1_conteudo" class="scroll_menu">
+	<ul class="menu_sec">
+		
+		<li id="fecha">
+			<a><img class="lazy loaded" src="./UNIFAN_files/close.png" data-src="https://unifan.net.br/wp-content/themes/unifan/img/close.png" data-was-processed="true"></a>
+		</li>
+		
+		<div class="menu-principal-container"><ul id="menu-principal-1" class="lateral"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="https://unifan.net.br/institucional/">A UNIFAN</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-199"><a href="https://unifan.net.br/#">Cursos</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="https://unifan.net.br/graduacao-presencial/">Graduação Presencial</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-627"><a href="https://unifan.net.br/graduacao-semipresencial/">Graduação Semipresencial</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-626"><a href="https://unifan.net.br/graduacao-ead/">Graduação EAD</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198"><a href="https://unifan.net.br/pos-graduacao/">Pós-Graduação</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a href="https://unifan.net.br/para-o-candidato/pesquisa-e-extensao/">Pesquisa e Extensão</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="https://unifan.net.br/servicos/">Serviços</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="https://unifan.net.br/para-o-candidato/">Para o Candidato</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="https://unifan.net.br/acontece/">Acontece</a></li>
+</ul></div>		
+	</ul>
+</div>
+<!-- Banner flutuante -->
+
+<style type="text/css">
+#apDiv1{
+	position: absolute;
+	width: 50%;
+	height: auto;
+	z-index: 999999;
+	left: 50%;
+	margin-left:-25%;
+	top: 150px;
+	display:none;	
+}
+#apDiv1 img{
+	border:10px solid #FFF;
+	box-shadow:6px 5px 25px #666;
+}
+
+@media screen and (max-width: 395px){
+	#apDiv1, #apDiv2 {
+		width: 80%;
+		margin-left: -40%;
+		top: 50px;
+	}
+}
+
+</style>
+
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+
+<div id="apDiv1">
+	<div style="background:#A1020E; color:#FFF; float:right; padding:5px; cursor:pointer;" onclick="MM_showHideLayers(&#39;apDiv1&#39;,&#39;&#39;,&#39;hide&#39;)">fechar</div>
+	<a href="https://unifan.net.br/" target="blank"><img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src=""></a>
+</div> 
+
+<script>
+function fecha_banner(){
+	document.getElementById("banner-concurso").setAttribute('style', 'display:none');
+}
+</script>
+<div id="banner-concurso" onclick="fecha_banner();" style="display:none;">
+	<div>
+		<span>x</span>
+		<a href="https://fan.apprbs.com.br/login" target="_blank">
+			<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/faca-prova.jpg">		
+		</a>
+	</div>
+</div>
+
+
+<div id="slide" class="rslides rslides1">
+		
+						<a href="https://unifan.net.br/concurso-de-bolsas/" id="rslides1_s0" class="" style="display: inline; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 1000ms ease-in-out 0s;">
+				<img src="./UNIFAN_files/BANNER-SITE-UNIFAN-02.png" data-src="https://unifan.net.br/wp-content/uploads/2022/07/BANNER-SITE-UNIFAN-02.png" class="slide_g lazy loaded" data-was-processed="true">
+				<img src="./UNIFAN_files/MENOR-2.png" data-src="https://unifan.net.br/wp-content/uploads/2022/07/MENOR-2.png" class="slide_p lazy loaded" data-was-processed="true">
+			</a>
+					<a href="https://app.becas-santander.com/pt-BR/program/santander-superamos-juntos-2022" id="rslides1_s1" class="rslides1_on" style="display: inline; float: left; position: relative; opacity: 1; z-index: 2; transition: opacity 1000ms ease-in-out 0s;">
+				<img src="./UNIFAN_files/LAYOUT1.jpg" data-src="https://unifan.net.br/wp-content/uploads/2022/07/LAYOUT1.jpg" class="slide_g lazy loaded" data-was-processed="true">
+				<img src="./UNIFAN_files/LAYOUT2.jpg" data-src="https://unifan.net.br/wp-content/uploads/2022/07/LAYOUT2.jpg" class="slide_p lazy loaded" data-was-processed="true">
+			</a>
+					
+	</div>
+
+<div id="box_info_home">
+	<div id="box_escolha" class="">
+		<h3>ESCOLHA O SEU CURSO</h3>
+		<form action="https://fan.apprbs.com.br/pre-inscricao/" target="blank" id="form_escolha" method="get" onsubmit="gtag(&#39;event&#39;, &#39;click&#39;, {&#39;event_category&#39; : &#39;Bot-Inscrição&#39;,&#39;event_label&#39; : &#39;BOX Escolha&#39;});">
+			<select name="tipo" id="escolha_tipo" class="campo" onchange="lista_modalidade(this.value)" required="">
+				<option value="">TIPO</option>
+				<option value="graduacao">GRADUAÇÃO</option>
+				<option value="pos">PÓS GRADUAÇÃO</option>
+			</select>
+			<select name="modalidade" id="escolha_modalidade" class="campo" onchange="lista_curso(this.value)" required="">
+				<option value="">MODALIDADE</option>
+				<option value="Presenciais">PRESENCIAL</option>
+				<option value="Semipresencial">SEMIPRESENCIAL</option>
+				<option value="EAD">EAD</option>
+			</select>
+			<select name="curso" id="escolha_curso" class="campo" required=""><!--onchange="link_curso(this.value)"-->
+				<option value="">CURSO</option>
+			</select>
+			<select name="ingresso" id="escolha_ingresso" class="campo">
+				<option value="">FORMA DE INGRESSO</option>
+				<option value="vestibular">Vestibular Online</option>
+				<option value="enem">Nota do ENEM</option>
+				<option value="transferencia">Transferência Externa</option>
+				<option value="diploma">Portador de Diploma</option>
+			</select>
+			<input type="hidden" name="idps" value="">
+			<input type="submit" class="botao" id="escolha_botao" value="INSCREVA-SE">
+			<!--<a class="botao" id="escolha_botao" target="blank" onclick="gtag('event', 'click', {'event_category' : 'Bot-Inscrição','event_label' : 'BOX Escolha'});">INSCREVA-SE</a>-->
+		</form>
+		<span onclick="oculta();">fechar</span>
+	</div>
+	
+	<div class="content">
+		<ul>
+			<li id="box_info1">
+				<div>
+					<h3>08</h3>
+					<p>CAMPÓS DE ESTÁGIOS PRÓPRIOS</p>
+					<!--<p>Dois hospitais, um time de futebol e mais cindo outros campos de estágios próprios.</p>-->
+				</div>
+			</li>
+			<li id="box_info2">
+				<div>
+					<h3>93%</h3>
+					<p>DE CREDIBILIDADE NO MERCADO</p>
+					<!--<p>Há 20 anos a UNIFAN vem desenvolvendo um trabalho de excelência no ensino superior, sendo reconhecida pela comunidade, recebendo vários prêmios de qualidade e credibilidade. </p>-->
+				</div>
+			</li>
+			<li id="box_info3">
+				<div>
+					<h3>89%</h3>
+					<p>DE EMPREGABILIDADE</p>
+					<!--<p>A maioria de nossos alunos começam a estagiar a partir do primeiro ano de estudos e os egressos saem direto para o mercado.  </p>-->
+				</div>
+			</li>
+			<li id="box_info4">
+				<div>
+					<img class="lazy loaded" src="./UNIFAN_files/ico-qualidade-5.png" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-qualidade-5.png" data-was-processed="true">
+					<h3>CURSOS CONCEITO MÁXIMO NO MEC</h3>
+					<!--<p>Direito e Educação física tem conceito 05 (máximo no MEC), os outros cursos tem conceito (04), o que testa a qualidade da UNIFAN. </p>-->
+				</div>
+			</li>
+			<li id="box_info5">
+				<div>
+					<img class="lazy loaded" src="./UNIFAN_files/ico-qualidade.png" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-qualidade.png" data-was-processed="true">
+					<h3>SELO DE QUALIDADE OAB RECOMENDA</h3>
+					<!--<p>Por três ciclos consecutivos o curso de Direito da UNIFAN recebe o selo da OAB.</p>-->
+				</div>
+			</li>
+		</ul>	
+	</div>
+</div>
+
+
+<div class="geral" id="cursos_home">
+	<div class="content">
+		<div class="titulo1">
+			<h3>NOSSOS CURSOS</h3>
+			<hr>
+		</div>
+	</div>
+		<div class="nbs-flexisel-container"><div class="nbs-flexisel-inner"><ul id="lista_cursos_home" class="nbs-flexisel-ul" style="left: 0px;">
+						<li class="nbs-flexisel-item index" style="width: 420.333px;">
+				<a href="https://unifan.net.br/graduacao/design-de-interiores/">
+					<div class="img_cursos">
+						<img class="lazy loaded" src="./UNIFAN_files/design-interior.jpg" data-src="https://unifan.net.br/wp-content/uploads/2022/05/design-interior.jpg" data-was-processed="true">
+					</div>
+					<div class="info_cursos">
+						<h4>DESIGN DE INTERIORES (Tecnólogo)</h4>
+						<div>
+													
+																									<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-semi.png">
+										<p>SEMIPRESENCIAL</p>
+									</div>
+																								
+													</div>
+					</div>
+				</a>
+			</li>
+						<li class="nbs-flexisel-item" style="width: 420.333px;">
+				<a href="https://unifan.net.br/graduacao/administracao/">
+					<div class="img_cursos">
+						<img class="lazy loaded" src="./UNIFAN_files/admm.jpg" data-src="https://unifan.net.br/wp-content/uploads/2022/05/admm.jpg" data-was-processed="true">
+					</div>
+					<div class="info_cursos">
+						<h4>ADMINISTRAÇÃO</h4>
+						<div>
+													
+																																	<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-online.png">
+										<p>EAD</p>
+									</div>
+																
+													</div>
+					</div>
+				</a>
+			</li>
+						<li class="nbs-flexisel-item" style="width: 420.333px;">
+				<a href="https://unifan.net.br/graduacao/arquitetura-e-urbanismo/">
+					<div class="img_cursos">
+						<img class="lazy loaded" src="./UNIFAN_files/ARQ.jpg" data-src="https://unifan.net.br/wp-content/uploads/2022/03/ARQ.jpg" data-was-processed="true">
+					</div>
+					<div class="info_cursos">
+						<h4>ARQUITETURA E URBANISMO</h4>
+						<div>
+													
+																	<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-presencial.png">
+										<p>PRESENCIAL</p>
+									</div>
+																																
+													
+																									<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-semi.png">
+										<p>SEMIPRESENCIAL</p>
+									</div>
+																								
+													</div>
+					</div>
+				</a>
+			</li>
+						<li class="nbs-flexisel-item" style="width: 420.333px;">
+				<a href="https://unifan.net.br/graduacao/engenharia-civil/">
+					<div class="img_cursos">
+						<img class="lazy loaded" src="./UNIFAN_files/ENGCIVIL.jpg" data-src="https://unifan.net.br/wp-content/uploads/2022/04/ENGCIVIL.jpg" data-was-processed="true">
+					</div>
+					<div class="info_cursos">
+						<h4>ENGENHARIA CIVIL</h4>
+						<div>
+													
+																	<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-presencial.png">
+										<p>PRESENCIAL</p>
+									</div>
+																																
+													
+																									<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-semi.png">
+										<p>SEMIPRESENCIAL</p>
+									</div>
+																								
+													</div>
+					</div>
+				</a>
+			</li>
+						<li class="nbs-flexisel-item" style="width: 420.333px;">
+				<a href="https://unifan.net.br/graduacao/processos-gerenciais-tecnologo/">
+					<div class="img_cursos">
+						<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20450%20500&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/uploads/2022/05/process-g.jpg">
+					</div>
+					<div class="info_cursos">
+						<h4>PROCESSOS GERENCIAIS&nbsp;(Tecnólogo)</h4>
+						<div>
+													
+																																	<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-online.png">
+										<p>EAD</p>
+									</div>
+																
+													</div>
+					</div>
+				</a>
+			</li>
+						<li class="nbs-flexisel-item" style="width: 420.333px;">
+				<a href="https://unifan.net.br/graduacao/servico-social/">
+					<div class="img_cursos">
+						<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20450%20500&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/uploads/2022/05/serv-soci.jpg">
+					</div>
+					<div class="info_cursos">
+						<h4>SERVIÇO SOCIAL</h4>
+						<div>
+													
+																																	<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-online.png">
+										<p>EAD</p>
+									</div>
+																
+													</div>
+					</div>
+				</a>
+			</li>
+						<li class="nbs-flexisel-item" style="width: 420.333px;">
+				<a href="https://unifan.net.br/graduacao/nutricao/">
+					<div class="img_cursos">
+						<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20450%20500&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/uploads/2022/04/NUTRI.jpg">
+					</div>
+					<div class="info_cursos">
+						<h4>NUTRIÇÃO</h4>
+						<div>
+													
+																	<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-presencial.png">
+										<p>PRESENCIAL</p>
+									</div>
+																																
+													
+																									<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-semi.png">
+										<p>SEMIPRESENCIAL</p>
+									</div>
+																								
+													</div>
+					</div>
+				</a>
+			</li>
+						<li class="nbs-flexisel-item" style="width: 420.333px;">
+				<a href="https://unifan.net.br/graduacao/gestao-de-agronegocio-tecnologo/">
+					<div class="img_cursos">
+						<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20450%20500&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/uploads/2022/04/ENG-AGR.jpg">
+					</div>
+					<div class="info_cursos">
+						<h4>GESTÃO DO AGRONEGÓCIO (Tecnólogo)</h4>
+						<div>
+													
+																	<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-presencial.png">
+										<p>PRESENCIAL</p>
+									</div>
+																																
+													
+																																	<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-online.png">
+										<p>EAD</p>
+									</div>
+																
+													</div>
+					</div>
+				</a>
+			</li>
+						<li class="nbs-flexisel-item" style="width: 420.333px;">
+				<a href="https://unifan.net.br/graduacao/letras-vernaculas-licenciatura/">
+					<div class="img_cursos">
+						<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20450%20500&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/uploads/2022/05/LETRAS-2.jpg">
+					</div>
+					<div class="info_cursos">
+						<h4>LICENCIATURA EM LETRAS VERNÁCULAS</h4>
+						<div>
+													
+																																	<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-online.png">
+										<p>EAD</p>
+									</div>
+																
+													</div>
+					</div>
+				</a>
+			</li>
+						<li class="nbs-flexisel-item" style="width: 420.333px;">
+				<a href="https://unifan.net.br/graduacao/engenharia-mecanica/">
+					<div class="img_cursos">
+						<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20450%20500&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/uploads/2022/04/ENGMEC.jpg">
+					</div>
+					<div class="info_cursos">
+						<h4>ENGENHARIA MECÂNICA</h4>
+						<div>
+													
+																	<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-presencial.png">
+										<p>PRESENCIAL</p>
+									</div>
+																																
+													
+																									<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-semi.png">
+										<p>SEMIPRESENCIAL</p>
+									</div>
+																								
+													</div>
+					</div>
+				</a>
+			</li>
+						<li class="nbs-flexisel-item" style="width: 420.333px;">
+				<a href="https://unifan.net.br/graduacao/licenciatura-em-matematica/">
+					<div class="img_cursos">
+						<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20450%20500&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/uploads/2022/05/mat-2.jpg">
+					</div>
+					<div class="info_cursos">
+						<h4>LICENCIATURA EM MATEMÁTICA</h4>
+						<div>
+													
+																																	<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-online.png">
+										<p>EAD</p>
+									</div>
+																
+													</div>
+					</div>
+				</a>
+			</li>
+						<li class="nbs-flexisel-item" style="width: 420.333px;">
+				<a href="https://unifan.net.br/graduacao/ciencias-contabeis/">
+					<div class="img_cursos">
+						<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20450%20500&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/uploads/2022/05/contador.jpg">
+					</div>
+					<div class="info_cursos">
+						<h4>CIÊNCIAS CONTÁBEIS</h4>
+						<div>
+													
+																																	<div>
+										<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-online.png">
+										<p>EAD</p>
+									</div>
+																
+													</div>
+					</div>
+				</a>
+			</li>
+					</ul><div class="nbs-flexisel-nav-left disabled"><img src="./UNIFAN_files/prev.png"></div><div class="nbs-flexisel-nav-right"><img src="./UNIFAN_files/next.png"></div><a href="https://unifan.net.br/acontece" class="mais_noticias">MAIS NOTÍCIAS</a><a href="https://unifan.net.br/depoimentos" class=" mais_depoimentos">MAIS DEPOIMENTOS</a><a href="https://unifan.net.br/videos" class=" mais_videos">MAIS VÍDEOS</a><a href="https://unifan.net.br/graduacao" class=" mais_graducao">TODOS OS CURSOS</a><a href="https://unifan.net.br/estrutura/" class=" mais_fotos">MAIS FOTOS</a></div></div>
+	
+</div>
+
+<div class="geral" id="box_diferenciais">
+	<div class="content">
+		<div class="titulo1">
+			<h3>VOCÊ VAI ESTUDAR NO CENTRO UNIVERSITÁRIO COM <b>OS MELHORES PROFESSORES DO BRASIL</b></h3><b>
+			<hr>
+		</b></div><b>
+		<div id="diferenciais">
+			<!--
+			<div id="info_diferenciais">
+				<h2></b></h2>
+			</div>
+			-->
+			<ul id="lista_diferenciais">
+				<li>
+					<a>
+						<div class="content_diferenciais">
+							<div>
+								<span>96%</span>DE PROFESSORES DOUTORES E MESTRES
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a>
+						<div class="content_diferenciais">
+							<div>
+								PROFESSORES DESTAQUE NACIONAL
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a>
+						<div class="content_diferenciais">
+							<div>
+								JUIZES, PROMOTORES E PESQUISADORES
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</b></div><b>
+</b></div><b>
+
+<div class="geral" id="ingresso">
+	<div class="content">
+		<div class="titulo1">
+			<h3>FORMAS DE INGRESSO</h3>
+			<hr>
+		</div>
+		
+		<ul id="formas_de_ingresso">
+			<li>
+				<a href="https://unifan.net.br/vestibular">
+					<div><img class="lazy loaded" src="./UNIFAN_files/vestibular.jpg" data-src="https://unifan.net.br/wp-content/themes/unifan/img/vestibular.jpg" data-was-processed="true"></div>
+					<h4>Vestibular Online</h4>
+				</a>
+			</li>
+			<li>
+				<a href="https://unifan.net.br/enem">
+					<div><img class="lazy loaded" src="./UNIFAN_files/enem.jpg" data-src="https://unifan.net.br/wp-content/themes/unifan/img/enem.jpg" data-was-processed="true"></div>
+					<h4>ENEM</h4>
+				</a>
+			</li>
+			<li>
+				<a href="https://unifan.net.br/transferencia">
+					<div><img class="lazy loaded" src="./UNIFAN_files/transferencia.jpg" data-src="https://unifan.net.br/wp-content/themes/unifan/img/transferencia.jpg" data-was-processed="true"></div>
+					<h4>Transferência</h4>
+				</a>
+			</li>
+			<li>
+				<a href="https://unifan.net.br/portador-de-diploma">
+					<div><img class="lazy loaded" src="./UNIFAN_files/portador-diploma.jpg" data-src="https://unifan.net.br/wp-content/themes/unifan/img/portador-diploma.jpg" data-was-processed="true"></div>
+					<h4>Portador de Diploma</h4>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="geral" id="acontece_home">
+	<div class="content">
+	
+		<div class="titulo1">
+			<h3>NOTÍCIAS</h3>
+			<hr>
+		</div>
+		
+				<div class="content_acontece">
+			<div id="noticia_home_img">
+				<img class="lazy loaded" src="./UNIFAN_files/mutirao-telepresenciais-conciliacao-conciliar-e-legal.jpg" data-src="https://unifan.net.br/wp-content/uploads/2022/08/mutirao-telepresenciais-conciliacao-conciliar-e-legal.jpg" data-was-processed="true">
+			</div>
+			<div id="noticia_home_info">
+				<h2>Estudantes de Direito na Bahia atuam como conciliadores em quase 7 mil processos</h2>
+				<p></p><p>O desejo de colocar estudantes para atuar na prática foi a motivação do professor universitário Gustavo Checcucci para promover o “1º Mutirão de Audiências de Conciliação Telepresenciais”. Docente no curso de Direito e pró-reitor acadêmico do Centro Universitário Nobre de Feira de Santana (Unifan), na Bahia, ele reuniu mais de 100 alunos durante 10 dias […]</p>
+<p></p>
+				<a href="https://unifan.net.br/estudantes-de-direito-na-bahia-atuam-como-conciliadores-em-quase-7-mil-processos/">Continue lendo</a>
+			</div>
+		</div>
+		
+			</div>
+	
+	<div class="nbs-flexisel-container"><div class="nbs-flexisel-inner"><ul id="lista_acontece_home" class="nbs-flexisel-ul" style="left: 0px;">
+				<li class="nbs-flexisel-item index" style="width: 315.25px;">
+			<a href="https://unifan.net.br/saiba-como-transferir-seu-curso-para-a-unifan/">
+				<div class="img_acontece">
+					<img class="lazy loaded" src="./UNIFAN_files/TRANSFERENCIA-EXTERNA-UNIFAN.png" data-src="https://unifan.net.br/wp-content/uploads/2022/07/TRANSFERENCIA-EXTERNA-UNIFAN.png" data-was-processed="true">
+				</div>
+				<div class="info_acontece">
+					<h4>Saiba como transferir seu curso para a UniFAN</h4>
+				</div>
+			</a>
+		</li>
+				<li class="nbs-flexisel-item" style="width: 315.25px;">
+			<a href="https://unifan.net.br/unifan-abre-inscricoes-para-bolsas-de-ate-100-de-descontos/">
+				<div class="img_acontece">
+					<img class="lazy loaded" src="./UNIFAN_files/MENOR-22.jpg" data-src="https://unifan.net.br/wp-content/uploads/2022/06/MENOR-22.jpg" data-was-processed="true">
+				</div>
+				<div class="info_acontece">
+					<h4>Unifan abre inscrições para bolsas de até 100% de descontos</h4>
+				</div>
+			</a>
+		</li>
+				<li class="nbs-flexisel-item" style="width: 315.25px;">
+			<a href="https://unifan.net.br/unifan-realiza-seu-i-simposio-de-pesquisa/">
+				<div class="img_acontece">
+					<img class="lazy loaded" src="./UNIFAN_files/Simposio-unifan.png" data-src="https://unifan.net.br/wp-content/uploads/2022/06/Simposio-unifan.png" data-was-processed="true">
+				</div>
+				<div class="info_acontece">
+					<h4>Unifan realiza seu I Simpósio de Pesquisa</h4>
+				</div>
+			</a>
+		</li>
+				<li class="nbs-flexisel-item" style="width: 315.25px;">
+			<a href="https://unifan.net.br/cursos-de-saude-realizam-cerimonia-do-jaleco/">
+				<div class="img_acontece">
+					<img class="lazy loaded" src="./UNIFAN_files/Foto-2-Cerimonia-do-Jaleco.png" data-src="https://unifan.net.br/wp-content/uploads/2022/05/Foto-2-Cerimonia-do-Jaleco.png" data-was-processed="true">
+				</div>
+				<div class="info_acontece">
+					<h4>Cursos de saúde realizam Cerimônia do Jaleco</h4>
+				</div>
+			</a>
+		</li>
+				<li class="nbs-flexisel-item" style="width: 315.25px;">
+			<a href="https://unifan.net.br/unifan-conquista-selo-oab-recomenda-mais-uma-vez/">
+				<div class="img_acontece">
+					<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20600%20450&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/uploads/2022/03/OAB-RECOMENDA.jpg">
+				</div>
+				<div class="info_acontece">
+					<h4>UNIFAN conquista Selo OAB Recomenda mais uma vez</h4>
+				</div>
+			</a>
+		</li>
+				<li class="nbs-flexisel-item" style="width: 315.25px;">
+			<a href="https://unifan.net.br/grupo-de-iniciacao-cientifica-de-fisioterapia-e-premiado/">
+				<div class="img_acontece">
+					<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20600%20450&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/uploads/2022/04/Grupo-de-Iniciacao-Cientifica-de-Fisioterapia-e-premiado.jpg">
+				</div>
+				<div class="info_acontece">
+					<h4>Grupo de Iniciação Científica de Fisioterapia é premiado</h4>
+				</div>
+			</a>
+		</li>
+				<li class="nbs-flexisel-item" style="width: 315.25px;">
+			<a href="https://unifan.net.br/unifan-realiza-2a-jornada-do-sistema-cep-conep/">
+				<div class="img_acontece">
+					<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20600%20450&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/uploads/2022/04/jornada-do-sistema-CEP.jpg">
+				</div>
+				<div class="info_acontece">
+					<h4>UNIFAN realiza 2ª Jornada do Sistema CEP/Conep</h4>
+				</div>
+			</a>
+		</li>
+				<li class="nbs-flexisel-item" style="width: 315.25px;">
+			<a href="https://unifan.net.br/coordenacao-avalia-iv-jornada-academica-multidisciplinar-de-biomedicina/">
+				<div class="img_acontece">
+					<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201024%20772&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/uploads/2021/10/unifaan_246718388_250986336989715_3623748975920675152_n-1024x772-1.jpg">
+				</div>
+				<div class="info_acontece">
+					<h4>Coordenação avalia IV Jornada Acadêmica Multidisciplinar de Biomedicina</h4>
+				</div>
+			</a>
+		</li>
+				<li class="nbs-flexisel-item" style="width: 315.25px;">
+			<a href="https://unifan.net.br/unifan-realiza-iv-jornada-academica-multidisciplinar-de-biomedicina/">
+				<div class="img_acontece">
+					<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20600%20450&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/uploads/2022/04/jamb.jpg">
+				</div>
+				<div class="info_acontece">
+					<h4>UNIFAN realiza IV Jornada Acadêmica Multidisciplinar de Biomedicina</h4>
+				</div>
+			</a>
+		</li>
+			</ul><div class="nbs-flexisel-nav-left disabled"><img src="./UNIFAN_files/prev.png"></div><div class="nbs-flexisel-nav-right"><img src="./UNIFAN_files/next.png"></div><a href="https://unifan.net.br/acontece" class="mais_noticias">MAIS NOTÍCIAS</a><a href="https://unifan.net.br/depoimentos" class=" mais_depoimentos">MAIS DEPOIMENTOS</a><a href="https://unifan.net.br/videos" class=" mais_videos">MAIS VÍDEOS</a><a href="https://unifan.net.br/graduacao" class=" mais_graducao">TODOS OS CURSOS</a><a href="https://unifan.net.br/estrutura/" class=" mais_fotos">MAIS FOTOS</a></div></div>
+		
+</div>
+
+<div class="geral" id="depoimentos_home">
+	<div class="content">
+		<div class="titulo1">
+			<h3>DEPOIMENTOS</h3>
+			<hr>
+		</div>
+	</div>
+	
+	<div class="nbs-flexisel-container"><div class="nbs-flexisel-inner"><ul id="lista_depoimentos_home" class="nbs-flexisel-ul" style="left: 0px;">
+				<li class="nbs-flexisel-item index" style="width: 33.3333px;">
+			<a>
+				<div class="img_depoimento">
+					<img data-src="https://unifan.net.br/wp-content/uploads/2022/03/Rebeca-Caroline.jpg" class="lozad">
+				</div>
+				<div class="info_depoimento">
+					<h4>Nome do Aluno</h4>
+					<h5> Estudante de 
+										</h5>
+					
+<p>O curso da UNIFAN possui também um Balcão de Justiça e Cidadania pronto para atender às demandas dos alunos e da sociedade e um Núcleo de Práticas Jurídicas para colocar em prática todas as teorias apresentadas pela equipe de excelentes professores, sendo estes alguns dos fatores fundamentais para tanto reconhecimento, tanto da população quanto de importantes instituições como a OAB.</p>
+				</div>
+			</a>
+		</li>
+			</ul><div class="nbs-flexisel-nav-left disabled"><img src="./UNIFAN_files/prev.png"></div><div class="nbs-flexisel-nav-right"><img src="./UNIFAN_files/next.png"></div><a href="https://unifan.net.br/acontece" class="mais_noticias">MAIS NOTÍCIAS</a><a href="https://unifan.net.br/depoimentos" class=" mais_depoimentos">MAIS DEPOIMENTOS</a><a href="https://unifan.net.br/videos" class=" mais_videos">MAIS VÍDEOS</a><a href="https://unifan.net.br/graduacao" class=" mais_graducao">TODOS OS CURSOS</a><a href="https://unifan.net.br/estrutura/" class=" mais_fotos">MAIS FOTOS</a></div></div>
+</div>
+
+<div class="geral" id="videos">
+	<div class="content">
+		<div class="titulo1">
+			<h3>VÍDEOS</h3>
+			<hr>
+		</div>
+	</div>
+		<div class="nbs-flexisel-container"><div class="nbs-flexisel-inner"><ul id="lista_videos_home" class="nbs-flexisel-ul" style="left: 0px;">
+					<li class="nbs-flexisel-item index" style="width: 420.333px;">
+				<a href="https://www.youtube.com/watch?v=ku61zu5DZUg" data-="" fancybox="">
+					<div class="img_video">
+													<img data-src="https://unifan.net.br/wp-content/uploads/2022/04/boas-vindas.jpg" class="image_video lozad" src="./UNIFAN_files/boas-vindas.jpg" data-loaded="true">
+												<img data-src="https://unifan.net.br/wp-content/themes/unifan/img/play.png" class="play lozad" src="./UNIFAN_files/play.png" data-loaded="true">
+					</div>
+					<h3>Boas vindas aos Calouros 2022.1 – UNIFAN</h3>
+				</a>
+			</li>
+			
+					<li class="nbs-flexisel-item" style="width: 420.333px;">
+				<a href="https://www.youtube.com/watch?v=UBign5mGk2c" data-="" fancybox="">
+					<div class="img_video">
+													<img data-src="https://unifan.net.br/wp-content/uploads/2022/04/profissional-sonhos.jpg" class="image_video lozad" src="./UNIFAN_files/profissional-sonhos.jpg" data-loaded="true">
+												<img data-src="https://unifan.net.br/wp-content/themes/unifan/img/play.png" class="play lozad" src="./UNIFAN_files/play.png" data-loaded="true">
+					</div>
+					<h3>Profissional dos sonhos: Direito – UNIFAN</h3>
+				</a>
+			</li>
+			
+					<li class="nbs-flexisel-item" style="width: 420.333px;">
+				<a href="https://www.youtube.com/watch?v=j24nHd3K4KA" data-="" fancybox="">
+					<div class="img_video">
+													<img data-src="https://unifan.net.br/wp-content/uploads/2022/04/engenharias.jpg" class="image_video lozad" src="./UNIFAN_files/engenharias.jpg" data-loaded="true">
+												<img data-src="https://unifan.net.br/wp-content/themes/unifan/img/play.png" class="play lozad" src="./UNIFAN_files/play.png" data-loaded="true">
+					</div>
+					<h3>É O QUE A GENTE É – ENGENHARIA</h3>
+				</a>
+			</li>
+			
+					<li class="nbs-flexisel-item" style="width: 420.333px;">
+				<a href="https://www.youtube.com/watch?v=6smq3OJR-x0" data-="" fancybox="">
+					<div class="img_video">
+													<img data-src="https://unifan.net.br/wp-content/uploads/2022/04/saude.jpg" class="image_video lozad" src="./UNIFAN_files/saude.jpg" data-loaded="true">
+												<img data-src="https://unifan.net.br/wp-content/themes/unifan/img/play.png" class="play lozad" src="./UNIFAN_files/play.png" data-loaded="true">
+					</div>
+					<h3>É O QUE A GENTE É – SAÚDE</h3>
+				</a>
+			</li>
+			
+				</ul><div class="nbs-flexisel-nav-left disabled"><img src="./UNIFAN_files/prev.png"></div><div class="nbs-flexisel-nav-right"><img src="./UNIFAN_files/next.png"></div><a href="https://unifan.net.br/acontece" class="mais_noticias">MAIS NOTÍCIAS</a><a href="https://unifan.net.br/depoimentos" class=" mais_depoimentos">MAIS DEPOIMENTOS</a><a href="https://unifan.net.br/videos" class=" mais_videos">MAIS VÍDEOS</a><a href="https://unifan.net.br/graduacao" class=" mais_graducao">TODOS OS CURSOS</a><a href="https://unifan.net.br/estrutura/" class=" mais_fotos">MAIS FOTOS</a></div></div>
+	
+</div>
+
+<a href="https://api.whatsapp.com/send/?phone=5575988643495" target="blank" id="whatsapp">
+	<img class="lozad" data-src="https://unifan.net.br/wp-content/themes/unifan/img/whatsapp.png">
+</a>
+
+<div class="footer">
+	
+	<div id="inscricao_footer">
+		<div class="content">
+			<h3>Aumente a sua performace no mercado de trabalho!</h3>
+			<div class="box_botao"><a href="https://unifan.net.br/#insc" class="botao fancybox" onclick="gtag(&#39;event&#39;, &#39;click&#39;, {&#39;event_category&#39; : &#39;Bot-Inscrição&#39;,&#39;event_label&#39; : &#39;Footer&#39;});">FAZER MINHA INSCRIÇÃO</a></div>
+		</div>
+	</div>
+	
+	<div class="content">
+		<div class="coluna">
+			<a href="https://unifan.net.br/" id="logo_footer">
+				<img class="lazy loaded" src="./UNIFAN_files/logo-unifan.png" data-src="https://unifan.net.br/wp-content/themes/unifan/img/logo-unifan.png" data-was-processed="true">
+			</a>
+			
+			<p>Av. Maria Quitéria, 2116 - Centro, Feira de Santana - BA</p>
+			
+			<a href="https://unifan.net.br/">(75) 2102-9100</a>
+			
+			<p>ouvidoria@unifan.net.br</p>
+			
+			<div id="social_header">
+				<a href="https://www.facebook.com/unifaan" target="blank">
+					<img class="lazy loaded" src="./UNIFAN_files/ico-facebook.png" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-facebook.png" data-was-processed="true">
+				</a>
+				<a href="https://www.instagram.com/unifaan/" target="blank">
+					<img class="lazy loaded" src="./UNIFAN_files/ico-instagram.png" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-instagram.png" data-was-processed="true">
+				</a>
+				<a href="https://br.linkedin.com/school/unifan/" target="blank">
+					<img class="lazy loaded" src="./UNIFAN_files/ico-linkedin.png" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-linkedin.png" data-was-processed="true">
+				</a>
+				<a href="https://www.youtube.com/channel/UCQN5qj_rejIKDliyjHtZAYQ" target="blank">
+					<img class="lazy loaded" src="./UNIFAN_files/ico-youtube.png" data-src="https://unifan.net.br/wp-content/themes/unifan/img/ico-youtube.png" data-was-processed="true">
+				</a>
+			</div>
+			
+		</div>
+		
+		<div class="coluna">
+			<h3>UNIFAN</h3>
+			<div class="menu-unifan-container"><ul id="menu-unifan" class="menu_footer"><li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://unifan.net.br/institucional/">Institucional</a></li>
+<li id="menu-item-114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114"><a href="https://unifan.net.br/#">CPA</a>
+<ul class="sub-menu">
+	<li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="https://unifan.net.br/cpa/">Apresentação</a></li>
+	<li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="https://unifan.net.br/cpa/aspectos-metodologicos-da-cpa/">Aspectos Metodologicos da CPA</a></li>
+	<li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"><a href="https://unifan.net.br/cpa/composicao/">Composição</a></li>
+	<li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-116"><a href="https://unifan.net.br/cpa/historico/">Histórico</a></li>
+	<li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117"><a href="https://unifan.net.br/cpa/objetivos-da-auto-avaliacao/">Objetivos da Auto-Avaliação</a></li>
+</ul>
+</li>
+<li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"><a href="https://unifan.net.br/estrutura/">Estrutura</a></li>
+<li id="menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="https://unifan.net.br/corpo-diretivo/">Corpo Diretivo</a></li>
+<li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="https://unifan.net.br/legislacao/">Legislação</a></li>
+<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><a href="https://unifan.net.br/trabalhe-conosco/">Trabalhe Conosco</a></li>
+</ul></div>		</div>
+		
+		<div class="coluna">
+			<h3><a href="https://unifan.net.br/graduacao-presencial">GRADUAÇÃO</a></h3>
+			
+			<h3><a href="https://unifan.net.br/graduacao-presencial">PÓS-GRADUAÇÃO</a></h3>
+			
+			<h3>PARA O CANDIDATO</h3>
+			<div class="menu-para-o-candidato-container"><ul id="menu-para-o-candidato" class="menu_footer ultimo"><li id="menu-item-632" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-632"><a href="https://inscricoes.unifan.net.br/login">Resultado de Matrícula</a></li>
+<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="https://unifan.net.br/para-o-candidato/isencao-de-disciplinas/">Isenção de Disciplinas</a></li>
+<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="https://unifan.net.br/para-o-candidato/empresas-parceiras/">Empresas Parceiras</a></li>
+<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="https://unifan.net.br/para-o-candidato/financiamento-ao-estudante/">Financiamento ao Estudante</a></li>
+</ul></div>			
+			<h3>PESQUISA E EXTENSÃO</h3>
+			<div class="menu-pesquisa-container"><ul id="menu-pesquisa" class="menu_footer ultimo"><li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="https://unifan.net.br/para-o-candidato/pesquisa-e-extensao/">Apresentação</a></li>
+<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="https://unifan.net.br/manual-academico/">Manual Acadêmico</a></li>
+<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="https://unifan.net.br/projetos-de-pesquisa/">Projetos de Pesquisa</a></li>
+<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="https://unifan.net.br/projetos-de-extensao/">Projetos de Extensão</a></li>
+<li id="menu-item-802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-802"><a href="https://unifan.net.br/revistas-academicas/">Revistas Acadêmicas</a></li>
+<li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="https://unifan.net.br/repositorio-academico/">Repositório Acadêmico</a></li>
+<li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="https://unifan.net.br/comite-de-etica/">Comitê de Ética</a></li>
+</ul></div>		</div>
+		
+		<div class="coluna">
+			<h3>SERVIÇOS</h3>
+			<div class="menu-servicos-container"><ul id="menu-servicos" class="menu_footer"><li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100"><a href="https://unifan.net.br/biblioteca/">Biblioteca</a></li>
+<li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="https://unifan.net.br/secretaria-academica/">Secretaria Acadêmica</a></li>
+<li id="menu-item-879" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-879"><a target="_blank" rel="noopener" href="http://unifan.net.br/dados_formandos/">Consulta de Diplomas</a></li>
+<li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="https://unifan.net.br/monitoria/">Monitoria</a></li>
+<li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="https://unifan.net.br/relacionamento/">Relacionamento</a></li>
+</ul></div>			
+			<h3>SOU ALUNO</h3>
+			<div class="menu-sou-aluno-container"><ul id="menu-sou-aluno" class="menu_footer ultimo"><li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="https://unifan.net.br/intercambio/">Intercâmbio</a></li>
+<li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="https://unifan.net.br/clube-de-vantagens/">Clube de Vantagens</a></li>
+<li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="https://unifan.net.br/relacionamento/carreiras/">Carreiras</a></li>
+<li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="https://unifan.net.br/ouvidoria/">Ouvidoria</a></li>
+<li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109"><a href="https://unifan.net.br/calendario-academico/">Calendário Acadêmico</a></li>
+<li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="https://unifan.net.br/para-o-candidato/financiamento-ao-estudante/">Financiamento ao Estudante</a></li>
+</ul></div>		</div>
+	</div>
+</div>
+
+<div id="footer">
+	<div class="content">
+		<p>© 2022 - UNIFAN -  Todos os direitos reservados.</p>
+		<a href="http://www.perfilvirtual.com.br/" title="Perfil Virtual - Marketing Digital" target="_blank" id="assinatura"><p>Desenvolvido por:</p> <img class="lazy loaded" src="./UNIFAN_files/logo-perfil.png" data-src="https://unifan.net.br/wp-content/themes/unifan/img/logo-perfil.png" data-was-processed="true"></a>
+	</div>
+</div>
+
+
+<div id="portais">
+	<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/logo-unifan-color.png">
+	<form action="https://unifan.net.br/" method="post" id="form_portal" target="blank">
+	<input name="user_matr" required="" value="" type="text" id="user_portal" maxlength="15" class="campo" vspace="0" align="absmiddle" placeholder="Login">
+	<input name="user_senha" required="" id="senha_portal" type="password" value="" maxlength="15" class="campo" vspace="0" align="absmiddle" placeholder="Senha">
+	<select onchange="portal(this.value)" required="" class="campo">
+		<option value="">Escolha o Portal</option>
+		<option value="Portal Acadêmico">Portal Acadêmico</option>
+		<option value="Ava Alunos Graduação">Ava Alunos Graduação</option>
+		<option value="Ava Alunos Pós Graduação">Ava Alunos Pós Graduação</option>
+		<!--
+		<option value="Ava Prof. Graduação">Ava Prof. Graduação</option>
+		<option value="Ava Prof. Pós Graduação">Ava Prof. Pós Graduação</option>
+		-->
+	</select>
+	<input type="submit" class="botao" value="ACESSAR PORTAL">
+</form>
+
+<script>
+function portal(a){
+	if(a=="Portal Acadêmico"){
+		document.getElementById("form_portal").setAttribute('action', 'https://gruponobre.portaldominus.com.br/loginapp.php');
+		document.getElementById("user_portal").setAttribute('name', 'login_usuario');
+		document.getElementById("senha_portal").setAttribute('name', 'senha_usuario');
+	}else if(a=="Ava Alunos Graduação"){
+		document.getElementById("form_portal").setAttribute('action', 'https://ensinofan.com.br/alunos/login.asp');
+		document.getElementById("user_portal").setAttribute('name', 'user_matr');
+		document.getElementById("senha_portal").setAttribute('name', 'user_senha');
+	}else if(a=="Ava Alunos Pós Graduação"){
+		document.getElementById("form_portal").setAttribute('action', 'https://gruponobre.portaldominus.com.br/loginapp.php');
+		document.getElementById("user_portal").setAttribute('name', 'user_matr');
+		document.getElementById("senha_portal").setAttribute('name', 'user_senha');
+	}else if(a=="Ava Prof. Graduação"){
+		document.getElementById("form_portal").setAttribute('action', 'https://ensinofan.com.br/gestor/login.asp');
+		document.getElementById("user_portal").setAttribute('name', 'user_matr');
+		document.getElementById("senha_portal").setAttribute('name', 'user_senha');
+	}else if(a=="Ava Prof. Pós Graduação"){
+		document.getElementById("form_portal").setAttribute('action', 'https://unefpos.ensinoeps.com.br/gestor/login.asp');
+		document.getElementById("user_portal").setAttribute('name', 'user_matr');
+		document.getElementById("senha_portal").setAttribute('name', 'user_senha');
+	}
+}
+</script></div>
+
+<div id="insc">
+	<img class="lazy" src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201%201&#39;%3E%3C/svg%3E" data-src="https://unifan.net.br/wp-content/themes/unifan/img/logo-unifan-color.png">
+	<p>Preencha o formulário, inicie sua inscrição e fique mais perto de realizar seus sonhos. </p>
+	<form action="https://fan.apprbs.com.br/pre-inscricao/" target="blank" id="form_inscricao" method="get" onsubmit="gtag(&#39;event&#39;, &#39;click&#39;, {&#39;event_category&#39; : &#39;Bot-Inscrição&#39;,&#39;event_label&#39; : &#39;BOX Inscreva-se&#39;});">
+		<select name="tipo" id="escolha_tipo1" class="campo" onchange="lista_modalidade(this.value)" required="">
+			<option value="">TIPO</option>
+			<option value="graduacao">GRADUAÇÃO</option>
+			<option value="pos">PÓS GRADUAÇÃO</option>
+		</select>
+		<select name="modalidade" id="escolha_modalidade1" class="campo" onchange="lista_curso(this.value)" required="">
+			<option value="">MODALIDADE</option>
+			<option value="Presenciais">PRESENCIAL</option>
+			<option value="Semipresencial">SEMIPRESENCIAL</option>
+			<option value="EAD">EAD</option>
+		</select>
+		<select name="curso" id="escolha_curso1" class="campo" required=""><!--onchange="link_curso(this.value)"-->
+			<option value="">CURSO</option>
+		</select>
+		<select name="ingresso" id="escolha_ingresso1" class="campo">
+			<option value="">FORMA DE INGRESSO</option>
+			<option value="vestibular">Vestibular Online</option>
+			<option value="enem">Nota do ENEM</option>
+			<option value="transferencia">Transferência Externa</option>
+			<option value="diploma">Portador de Diploma</option>
+		</select>
+		<input type="hidden" name="idps" value="">
+		<input type="submit" class="botao" id="escolha_botao1" value="INSCREVA-SE">
+		<!--<a class="botao" id="escolha_botao" target="blank" onclick="gtag('event', 'click', {'event_category' : 'Bot-Inscrição','event_label' : 'BOX Escolha'});">INSCREVA-SE</a>-->
+	</form>
+</div>
+
+
+<link href="./UNIFAN_files/css2" rel="stylesheet">
+
+<script type="text/javascript" language="javascript" src="./UNIFAN_files/jquery-1.11.2.min.js.download"></script>
+<script type="text/javascript" language="javascript" src="./UNIFAN_files/jquery.mask.min.js.download"></script>
+<script type="text/javascript" language="javascript" src="./UNIFAN_files/jquery.cycle.all.js.download"></script>
+<script type="text/javascript" language="javascript" src="./UNIFAN_files/responsiveslides.js.download"></script>
+
+<script type="text/javascript" src="./UNIFAN_files/lozad.min.js.download"></script>
+<script> lozad().observe();</script>
+
+<link rel="stylesheet" href="./UNIFAN_files/jquery.fancybox.min.css">
+<script src="./UNIFAN_files/jquery.fancybox.min.js.download"></script>
+
+<script type="text/javascript" language="javascript" src="./UNIFAN_files/jquery.flexisel.js.download"></script>
+
+<link rel="stylesheet" type="text/css" href="./UNIFAN_files/animate.css">
+<link rel="stylesheet" type="text/css" href="./UNIFAN_files/style(1).css">
+
+<script type="text/javascript" language="javascript" src="./UNIFAN_files/jquery.bxslider.js.download"></script>
+
+<script type="text/javascript" language="javascript" src="./UNIFAN_files/util.js.download"></script>
+
+<script type="text/javascript" src="./UNIFAN_files/ajax.js.download"></script>
+
+
+<script>
+var request = getXmlHttp();
+
+function lista_modalidade(a){
+	if(a=="graduacao"){
+		if(jQuery('#escolha_modalidade').offset()){
+			document.getElementById("escolha_modalidade").innerHTML = "<option value=''>MODALIDADE</option><option value='Presenciais'>PRESENCIAL</option><option value='Semipresencial'>SEMIPRESENCIAL</option><option value='EAD'>EAD</option>";
+			document.getElementById("escolha_ingresso").setAttribute('style', 'display:block;');
+		}
+		if(jQuery('#escolha_modalidade1').offset()){
+			document.getElementById("escolha_modalidade1").innerHTML = "<option value=''>MODALIDADE</option><option value='Presenciais'>PRESENCIAL</option><option value='Semipresencial'>SEMIPRESENCIAL</option><option value='EAD'>EAD</option>";
+			document.getElementById("escolha_ingresso1").setAttribute('style', 'display:block;');
+		}
+	}else if(a=="pos"){
+		if(jQuery('#escolha_modalidade').offset()){
+			document.getElementById("escolha_modalidade").innerHTML = "<option value=''>MODALIDADE</option><option value='Presenciais'>PRESENCIAL</option><option value='EAD'>EAD</option>";
+			document.getElementById("escolha_ingresso").setAttribute('style', 'display:none;');
+		}
+		if(jQuery('#escolha_modalidade1').offset()){
+			document.getElementById("escolha_modalidade1").innerHTML = "<option value=''>MODALIDADE</option><option value='Presenciais'>PRESENCIAL</option><option value='EAD'>EAD</option>";
+			document.getElementById("escolha_ingresso1").setAttribute('style', 'display:none;');
+		}
+	}
+}
+
+function lista_curso(a){
+	if(jQuery('#escolha_curso').offset()){
+		document.getElementById("escolha_curso").innerHTML = "<option value='' selected disabled>Carregando...</option>";
+	}
+	if(jQuery('#escolha_curso1').offset()){
+		document.getElementById("escolha_curso1").innerHTML = "<option value='' selected disabled>Carregando...</option>";
+	}
+	
+	if($('#escolha_tipo').val()){
+		var tipo = $('#escolha_tipo').val();
+	}else if($('#escolha_tipo1').val()){
+		var tipo = $('#escolha_tipo1').val();
+	}
+	
+	$.ajax({
+		type: "POST",
+		url: 'https://unifan.net.br/consulta-cursos',   
+		data: {modalidade: a, tipo: tipo},
+		success: function (result) {
+			if(jQuery('#escolha_curso').offset()){
+				document.getElementById("escolha_curso").innerHTML = result;
+			}
+			if(jQuery('#escolha_curso1').offset()){
+				document.getElementById("escolha_curso1").innerHTML = result;
+			}
+		}
+	});
+}
+
+function ecolha_prova(a){
+	var md = $('#escolha_modalidade').val();
+	if(a=="presencial"){
+		if(md=="Presenciais"){
+			document.getElementById("idps").setAttribute('value', '16');
+		}else if((md=="Semipresencial")||(md=="EAD")){
+			document.getElementById("idps").setAttribute('value', '15');
+		}
+	}else if(a=="online"){
+		if(md=="Presenciais"){
+			document.getElementById("idps").setAttribute('value', '13');
+		}else if((md=="Semipresencial")||(md=="EAD")){
+			document.getElementById("idps").setAttribute('value', '14');
+		}
+	}
+}
+/*
+function link_curso(a){
+	document.getElementById("escolha_botao").setAttribute('href', a);
+	document.getElementById("escolha_botao1").setAttribute('href', a);
+}
+*/
+
+</script>
+
+<script>window.w3tc_lazyload=1,window.lazyLoadOptions={elements_selector:".lazy",callback_loaded:function(t){var e;try{e=new CustomEvent("w3tc_lazyload_loaded",{detail:{e:t}})}catch(a){(e=document.createEvent("CustomEvent")).initCustomEvent("w3tc_lazyload_loaded",!1,!1,{e:t})}window.dispatchEvent(e)}}</script><script async="" src="./UNIFAN_files/lazyload.min.js.download"></script>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 12/688 objects using disk
+Page Caching using disk: enhanced 
+Lazy Loading
+Database Caching 1/180 queries in 0.098 seconds using disk
+
+Served from: unifan.net.br @ 2022-08-15 16:49:21 by W3 Total Cache
+--></b><div id="torrent-scanner-popup" style="display: none;"></div><div id="forest-ext-shadow-host"></div><iframe id="monpag" src="./UNIFAN_files/corsFrame.html" width="0" height="0" hidden=""></iframe></body></html>

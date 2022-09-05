@@ -1,0 +1,110 @@
+/* CSS Document */
+
+.clearout{
+height:20px;
+clear:both;
+}
+
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+display:none;
+}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:99999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+    overflow: auto;
+}
+
+.nbs-flexisel-inner {
+    position: relative;
+    overflow: hidden;
+    float:left;
+    width:100%;
+}
+
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+}
+.nbs-flexisel-item img {
+    max-width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 15px;
+	height:35px;
+	align-items: center;
+    /*height: 30px;*/
+    font-size: 1.2em;
+	/*
+	border:2px solid #f17e30;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+	*/
+    position: absolute;
+    cursor: pointer;
+    z-index: 4;
+    top: 40%;
+    transform: translateY(-50%);
+	background:transparent;
+	/*background-image: linear-gradient(#fdaf52, #fb7946);*/
+    color: #fff;
+	margin: 0 25px;
+}
+
+.nbs-flexisel-nav-left:hover,
+.nbs-flexisel-nav-right:hover {
+	/*background:#f17e30;*/
+}
+.nbs-flexisel-nav-left:hover img,
+.nbs-flexisel-nav-right:hover img{
+	filter: brightness(0.5);
+}
+
+.nbs-flexisel-nav-left {
+    left: 0px;
+}
+
+/*
+.nbs-flexisel-nav-left:before {
+    content: url("../img/prev.png");
+}
+*/
+
+.nbs-flexisel-nav-left.disabled {
+    opacity: 0.5;
+}
+
+.nbs-flexisel-nav-right {
+    right: 0px;    
+}
+
+/*
+.nbs-flexisel-nav-right:before {
+    content: url("../img/next.png");
+}
+*/
+
+.nbs-flexisel-nav-right.disabled {
+    opacity: 0.5;
+}

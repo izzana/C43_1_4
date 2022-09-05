@@ -1,0 +1,366 @@
+// JavaScript Document
+
+function menu_curso(a,b){
+	if(a=="1"){
+		if(jQuery('#info_geral').offset()){
+			document.getElementById('info_geral').setAttribute('style', 'display:none');
+			document.getElementById('info_geral1').setAttribute('class', '');
+		}
+		if(jQuery('#mercado_trabalho').offset()){
+			document.getElementById('mercado_trabalho').setAttribute('style', 'display:none');
+			document.getElementById('mercado_trabalho1').setAttribute('class', '');
+		}
+		if(jQuery('#infraestrutura').offset()){
+			document.getElementById('infraestrutura').setAttribute('style', 'display:none');
+			document.getElementById('infraestrutura1').setAttribute('class', '');
+		}
+		if(jQuery('#matriz_curricular').offset()){
+			document.getElementById('matriz_curricular').setAttribute('style', 'display:none');
+			document.getElementById('matriz_curricular1').setAttribute('class', '');
+		}
+		
+		document.getElementById(b).setAttribute('style', 'display:block');
+		document.getElementById(b+'1').setAttribute('class', 'active');
+	}
+	if(a=="0"){
+		document.getElementById(b).setAttribute('style', 'display:none');
+		document.getElementById(b+'1').setAttribute('class', '');
+	}
+}
+function matriz(a,b){
+	if(a=="1"){
+		document.getElementById('mt'+b).setAttribute('style', 'display:block');
+		document.getElementById('mtt'+b).setAttribute('onclick', "matriz(0,'"+b+"')");
+		document.getElementById('mtt'+b).setAttribute('class', "periodo active");
+	}
+	if(a=="0"){
+		document.getElementById('mt'+b).setAttribute('style', 'display:none');
+		document.getElementById('mtt'+b).setAttribute('onclick', "matriz(1,'"+b+"')");
+		document.getElementById('mtt'+b).setAttribute('class', "periodo");
+	}
+}
+
+function topicos(a,b){
+	if(a=="1"){
+		document.getElementById('tpc'+b).setAttribute('style', 'display:block');
+		document.getElementById('tp'+b).setAttribute('onclick', "topicos(0,'"+b+"')");
+		document.getElementById('tp'+b).setAttribute('class', "periodo active");
+	}
+	if(a=="0"){
+		document.getElementById('tpc'+b).setAttribute('style', 'display:none');
+		document.getElementById('tp'+b).setAttribute('onclick', "topicos(1,'"+b+"')");
+		document.getElementById('tp'+b).setAttribute('class', "periodo");
+	}
+}
+
+var box_escolha=0;
+function oculta(){
+	document.getElementById("box_escolha").setAttribute('class', '');
+	box_escolha=1;
+}
+
+function busca(a){
+	if(a=="1"){
+		document.getElementById('search').setAttribute('style', 'display:none');
+	}
+	if(a=="0"){
+		document.getElementById('search').setAttribute('style', 'display:flex');
+	}
+}
+
+$(document).ready(function() {
+	if(jQuery('#imagem-topo').offset()){
+		document.getElementById('imagem-topo').setAttribute('class', 'animated fadeInRight');
+	}
+	
+	
+	if(jQuery('#lista_exames').offset()){
+		x=0;
+		for(i=1;i<50;i++){
+			if($('#exame'+i).offset()){
+				document.getElementById('exame'+i).setAttribute('class', 'animated fadeInUp');
+				document.getElementById('exame'+i).setAttribute('style', 'animation-delay:'+x+'ms;');
+				x=x+400;
+			}
+		}
+	}
+	
+		
+	$('.link').click(function(){
+		$('#menu2').slideUp('fast');
+		$('#menu2').attr('rel', '');
+		var h = $(this).attr('rel');
+		setTimeout(function(){
+			$('html,body').animate({scrollTop: ($("#"+h).offset().top)},'slow');
+		},250)
+		
+	});
+	
+	
+	$('.link').click(function(){
+		$('#menu2').slideUp('fast');
+		$('#menu2').attr('rel', '');
+		var h = $(this).attr('rel');
+		setTimeout(function(){
+			$('html,body').animate({scrollTop: ($("#"+h).offset().top)},'slow');
+		},250)
+		
+	});
+	
+	$.menu_aberto = false;
+	$('.menu1').bind('click', function() {
+		if ($.menu_aberto == false) {
+            $('#menu1_conteudo').animate({
+				right:0
+			}, 300 );
+			document.getElementById('menu1').setAttribute('style', 'background-image: url(https://unifan.net.br/wp-content/themes/unifan/img/close.png);');
+            $.menu_aberto = true;
+        } else {
+            $('#menu1_conteudo').animate({
+				right:"-100%"
+			}, 300 );
+			document.getElementById('menu1').setAttribute('style', 'background-image: url(https://unifan.net.br/wp-content/themes/unifan/img/icone_menu.png);');
+            $.menu_aberto = false;
+        }
+    });
+	
+	$('#fecha').bind('click', function() {
+		$('#menu1_conteudo').animate({
+				right:"-100%"
+			}, 300 );
+            $.menu_aberto = false;
+			document.getElementById('menu1').setAttribute('style', 'background-image: url(https://unifan.net.br/wp-content/themes/unifan/img/icone_menu.png);');
+	});
+	
+	$('.fecha').bind('click', function() {
+		$('#menu1_conteudo').animate({
+				right:"-100%"
+			}, 300 );
+            $.menu_aberto = false;
+			document.getElementById('menu1').setAttribute('style', 'background-image: url(https://unifan.net.br/wp-content/themes/unifan/img/icone_menu.png);');
+	});
+
+	
+	//Ações mediante posicionamento do Scroll
+	$(window).scroll(function () {
+		
+		scrollTop = $(this).scrollTop();
+		
+		if($('#missao').offset()){
+			scroll_elemento = $('#missao').offset().top;
+			res = scroll_elemento-300;
+			if(scrollTop > res){
+				document.getElementById("m1").setAttribute('class', 'animated fadeInDown');
+				document.getElementById("m2").setAttribute('class', 'animated fadeInDown');
+				document.getElementById("m2").setAttribute('style', 'animation-delay:300ms;');
+				document.getElementById("m3").setAttribute('class', 'animated fadeInDown');
+				document.getElementById("m3").setAttribute('style', 'animation-delay:600ms;');
+				
+				document.getElementById("img1").setAttribute('class', 'animated fadeInUp');
+				document.getElementById("img1").setAttribute('style', 'animation-delay:900ms;');
+				document.getElementById("img2").setAttribute('class', 'animated fadeInUp');
+				document.getElementById("img2").setAttribute('style', 'animation-delay:1200ms;');
+				document.getElementById("img3").setAttribute('class', 'animated fadeInUp');
+				document.getElementById("img3").setAttribute('style', 'animation-delay:1500ms;');
+			}
+		}
+		
+		if($('#box_escolha').offset()){
+			scroll_elemento = $('#cursos_home').offset().top;
+			res = scroll_elemento-300;
+			if(scrollTop > res){
+				if(box_escolha==0){
+					document.getElementById("box_escolha").setAttribute('class', 'box_escolha');
+				}
+			}else if(scrollTop < res){
+				document.getElementById("box_escolha").setAttribute('class', '');
+			}
+		}
+		
+		if($('#contato').offset()){
+			scroll_elemento = $('#contato').offset().top;
+			res = scroll_elemento-300;
+			if(scrollTop > res){
+				document.getElementById("info_contato").setAttribute('class', 'animated fadeInLeft');
+				document.getElementById("form_contato").setAttribute('class', 'animated fadeInRight');
+				document.getElementById("form_contato").setAttribute('style', 'animation-delay:400ms;');
+				$('#bg_footer').animate({
+					backgroundPositionY:"100%"
+				}, 2000 );
+			}
+		}
+		
+		
+	});
+
+	//-------------	
+	
+	if($('#slide').offset()){
+		$("#slide").responsiveSlides({
+			speed: 1000,
+			timeout: 6000,
+			pager: false,
+			nav: false
+		});
+	}
+	if($('#slide_curso').offset()){
+		$("#slide_curso").responsiveSlides({
+			speed: 1000,
+			timeout: 6000,
+			pager: false,
+			nav: false
+		});
+	}
+	
+	<!--Fancybox-->
+	$('.fancybox').fancybox({
+		'titleShow'     : false,
+		'transitionIn'  : 'elastic',
+        'transitionOut' : 'elastic'
+	});
+	$(".fancyboxIframe").fancybox({
+		type: "iframe",
+        maxWidth    : 500,
+        maxHeight   : 400,
+        fitToView   : false,
+        width       : '90%',
+        height      : '90%',
+        autoSize    : false,
+        closeClick  : false,
+        openEffect  : 'none',
+        closeEffect : 'none',
+		iframe: {
+			scrolling : 'auto',
+			preload   : true
+		}
+    });
+	
+	$(".fone").mask("(00) 0000-00009");
+	$("#cpf").mask("00000000000");
+	
+	$("#fotos_projetos_home").responsiveSlides({
+		speed: 1000,
+  		timeout: 6000,
+		pager: false,
+		nav: true
+	});
+	
+	$("#lista_cursos_home").flexisel({
+        visibleItems: 4,
+        itemsToScroll: 1,         
+		infinite: false,
+		responsiveBreakpoints: { 
+		    micro: { 
+			changePoint:500,
+			visibleItems: 1,
+			itemsToScroll: 1
+		  },
+		   mobile: { 
+			changePoint:880,
+			visibleItems: 2,
+			itemsToScroll: 1
+		  },
+		   v1550: { 
+			changePoint:1550,
+			visibleItems: 3,
+			itemsToScroll: 1
+		  }
+		}		
+    });
+	
+	$("#lista_estrutura_home").flexisel({
+        visibleItems: 4,
+        itemsToScroll: 1,         
+		infinite: false,
+		responsiveBreakpoints: { 
+		    micro: { 
+			changePoint:500,
+			visibleItems: 1,
+			itemsToScroll: 1
+		  },
+		   mobile: { 
+			changePoint:880,
+			visibleItems: 2,
+			itemsToScroll: 1
+		  }
+		}		
+    });
+	
+	$("#lista_depoimentos_home").flexisel({
+        visibleItems: 3,
+        itemsToScroll: 3,         
+		infinite: false,
+		responsiveBreakpoints: { 
+		    micro: { 
+			changePoint:650,
+			visibleItems: 1,
+			itemsToScroll: 1
+		  },
+		  v1200: { 
+			changePoint:1200,
+			visibleItems: 2,
+			itemsToScroll: 2
+		  }
+		}		
+    });
+	
+	$("#lista_videos_home").flexisel({
+        visibleItems: 4,
+        itemsToScroll: 4,         
+		infinite: false,
+		responsiveBreakpoints: { 
+		    micro: { 
+			changePoint:500,
+			visibleItems: 1,
+			itemsToScroll: 1
+		  },
+		   mobile: { 
+			changePoint:880,
+			visibleItems: 2,
+			itemsToScroll: 3
+		  },
+		   v1300: { 
+			changePoint:1300,
+			visibleItems: 3,
+			itemsToScroll: 3
+		  }
+		}		
+    });
+	
+	$("#lista_acontece_home").flexisel({
+        visibleItems: 4,
+        itemsToScroll: 4,         
+		infinite: false,
+		responsiveBreakpoints: { 
+		    micro: { 
+			changePoint:500,
+			visibleItems: 1,
+			itemsToScroll: 1
+		  },
+		  v980: { 
+			changePoint:980,
+			visibleItems: 3,
+			itemsToScroll: 1
+		  },
+		   mobile: { 
+			changePoint:880,
+			visibleItems: 2,
+			itemsToScroll: 2
+		  }
+		}		
+    });
+	
+	
+	var width = window.innerWidth;;
+	if(width < 600){
+		$("#lista_diferenciais").flexisel({
+			visibleItems: 1,
+			itemsToScroll: 1,         
+			infinite: false,	
+		});
+	}
+
+	
+	
+	
+});
